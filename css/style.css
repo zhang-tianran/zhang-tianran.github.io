@@ -188,6 +188,11 @@ nav {
 		font-size: 14px;
 		letter-spacing: 0.1em;
 	}
+
+	.name {
+		line-height: 1;
+		margin-bottom: 15px;
+	}
 }
 
 
