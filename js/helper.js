@@ -1,10 +1,5 @@
 // Circular text
 var cirText = new CircleType(document.getElementById('circleText'));
-function updateRadius() {
-  cirText.radius(cirText.element.offsetWidth / 2);
-}
-window.addEventListener('resize', updateRadius());
-updateRadius();
 
 
 // Nav bar
@@ -20,7 +15,7 @@ window.onscroll = function() {
 
 var navContainer = document.getElementById("nav-container");
 window.onresize = function() {
-  if (window.innerWidth() <= 600) {
+  if (window.innerWidth <= 600) {
     navContainer.classList.add("justify-content-center");
     navContainer.classList.remove("justify-content-end");
   } else {

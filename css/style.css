@@ -9,7 +9,7 @@ body {
 }
 
 section {
-	width: 70vw;
+	width: 90vw;
 	margin: 30px auto;
 }
 
@@ -44,8 +44,12 @@ p {
 	margin: 0;
 }
 
+#about, #experience {
+	width: 70vw;
+}
+
 @media only screen and (max-width: 600px) {
-	section {
+	#about, #experience {
 		width: 95vw;
 		margin: 20px auto;
 	}
@@ -61,7 +65,7 @@ nav {
 
 .menu {
 	height: 100%;
-	padding:0.5em 0 0.5em 2em;
+	padding:0.5em 0 0.5em 0em;
     font-size: 1em;
 }
 
@@ -172,7 +176,7 @@ nav {
 	}
 
 	.profile {
-		width: 100%;
+		width: 250px;
 		margin: 0;
 		margin-top: 12%;
 	}
@@ -215,6 +219,7 @@ ul.social-buttons li:last-child {
 	font-size:23px;
 	line-height:40px;
 	text-align:center;
+	padding: 0;
 }
 
 .social-btn:hover,.social-btn:focus {
