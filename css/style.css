@@ -94,7 +94,9 @@ nav {
 }
 
 .opening {
+	width: 400px;
 	height: 65vh;
+	box-sizing: border-box;
 }
 
 .circle-container {
@@ -167,6 +169,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
 	.opening {
+		width: 250px;
 		height: 55vh;
 	}
 
@@ -313,7 +316,7 @@ ul.social-buttons li:last-child {
 
 .project-box .item p{
 	text-align: center;
-	margin: 5px;
+	margin: 5px 0px;
 }
 
 .project-box .item h2{

@@ -1,5 +1,10 @@
 // Circular text
 var cirText = new CircleType(document.getElementById('circleText'));
+function updateRadius() {
+  cirText.radius(cirText.element.offsetWidth / 2);
+}
+window.addEventListener('resize', updateRadius());
+updateRadius();
 
 
 // Nav bar
