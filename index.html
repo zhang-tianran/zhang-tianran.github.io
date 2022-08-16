@@ -1,11 +1,240 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Tianran Website</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tianran Zhang</title>
+    <link rel="icon" href="./assets/image/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	  <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/fa6b154dde.js" crossorigin="anonymous"></script>
+	  <!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Rubik:wght@300&family=Share:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Circle Text -->
+    <script src="assets/js/circletype.min.js"></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-<h1>Hello World</h1>
+    <!-- ==========================
+      COVER
+    =========================== -->
+    <div id="intro">
+      <div class="cover">
+        <div class="container opening">
+          <div class="circle-container">
+            <p id="circleText"> Good Morning. In case I don't see you, good afternoon, good evening, and good night. </p>
+          </div>
+          <div class="circle-container">
+            <img src="assets/image/profile.jpg" class="profile" alt="Profile image">
+          </div>
+        </div>
+        <h1 class="name display-1" id="name"> Tianran Zhang </h1>
+        <p class="typewrite" data-period="2000" data-type='["Developer", "Data Engineer", "ML/AI Practioner", "Designer"]'></p>
+      </div>
+      <svg width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="wave transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="5%" stop-color="#80c8db"></stop><stop offset="95%" stop-color="#ffffff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 103.27272727272728,143.41148325358853 206.54545454545456,153.82296650717703 312,152 C 417.45454545454544,150.17703349282297 525.0909090909091,136.11961722488036 626,139 C 726.9090909090909,141.88038277511964 821.090909090909,161.69856459330146 908,149 C 994.909090909091,136.30143540669854 1074.5454545454545,91.08612440191388 1162,83 C 1249.4545454545455,74.91387559808612 1344.7272727272727,103.95693779904306 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="5%" stop-color="#80c8db"></stop><stop offset="95%" stop-color="#ffffff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 75.10047846889952,270.8995215311005 150.20095693779905,275.799043062201 244,264 C 337.79904306220095,252.20095693779902 450.2966507177033,223.70334928229664 562,217 C 673.7033492822967,210.29665071770336 784.6124401913877,225.38755980861248 883,243 C 981.3875598086123,260.6124401913875 1067.2535885167463,280.74641148325355 1158,285 C 1248.7464114832537,289.25358851674645 1344.3732057416269,277.62679425837325 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+    </div>
 
-</body>
+    <!-- ==========================
+      Navigation 
+    =========================== -->
+    <nav class="navbar" id="navbar">
+      <div class="container justify-content-end">
+        <div class="menu">
+          <a href="index.html#about">About</a>
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==========================
+      ABOUT
+    =========================== -->
+    <section class="text-center section-padding" id="about">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly">
+          <div class="col">
+            <h1>About Me</h1>
+            <p> Hello, I’m Tianran Zhang (I also go by Ran). I grew up in Beijing, China and currently live in Providence, Rhode Island. I am a junior at Brown University, studying computer science. I love technology and its interdisciplinary applications. I am passionate about human-centered design, full stack development, and machine learning and AI. </p>
+          </div>
+        </div>
+        <ul class="social-buttons">
+          <li><a href="mailto:tianran_zhang@brown.edu" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="https://github.com/zhang-tianran" class="social-btn"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/tianran-zhang-6681ba169/" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==========================
+      EXPERIENCE 
+    =========================== -->
+    <section class="text-center section-padding" id="experience">
+      <div class="container-fluid">
+        <h1>Experiences</h1>
+
+        <div class="timeline-container">
+          <div class="timeline">
+            <ul>
+              <li>
+                <p class="time-tag">May - Aug 2022</p>
+                <div class="timeline-content">
+                  <h3> Data Engineering Intern <span> Eli Lilly </span> </h3>
+                  <p> 
+                    Built the clinical data visualization and classification tools within the Digital Health team. Conducted research on monitoring early phase drug effects using clustering algorithms and parallel coordinate plots for Chronic Pain Master Protocol (CPMP). 
+                  </p>
+                </div>
+              </li>
+              <li>
+                <p class="time-tag">May - Aug 2022</p>
+                <div class="timeline-content">
+                  <h3> Research Assistant <span> Tsinghua University Future Laboratory </span></h3>
+                  <p> 
+                    Conducted research on body recognition algorithms and evaluated its hardware implementations for a human-computer interactive art installation. <br>
+                    Studied and improved the user interface of a coffee vending robot developed by Rossum Robotics Company. 
+                  </p>
+                </div>
+              </li>
+              <li>
+                <p class="time-tag">May - Aug 2022</p>
+                <div class="timeline-content">
+                  <h3> Teaching Assistant <span> CSCI 1430: Computer Vision </span> </h3>
+                  <p> 
+                    Assisted students in debugging and answering homework questions. Graded projects and assignments.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================
+    PROJECT SECTION 
+    =========================== -->
+    <section class="text-center section-padding" id="projects">
+      <div class="container-fluid">
+        <h1>Projects</h1>
+        <div class="row project-box">
+          <!-- Box 1 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-shirt"></i>
+            </div>
+            <h2>“Swift Switch” Chrome Extension</h2>
+            <h6>HTML/CSS, JavaScript, Python, TensorFlow, Manifest</h6>
+            <p>
+              “Best Overall Hack” prize, Hack@Brown 2022 <br>
+              A computer-vision-backed Chrome extension that provides sustainable clothes alternatives to eliminate fast-fashion industry consumption. 
+            </p>
+            <a href="https://github.com/zhang-tianran/Swift-Switch">Repo</a>
+            <a href="https://www.youtube.com/watch?v=VQEP_3H_GXc">Demo</a>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-store"></i>
+            </div>
+            <h2>Brown Marketplace Website</h2>
+            <h6>React, JavaScript, Java, Firebase</h6>
+            <p> 
+              A Brown University exclusive transaction website that enables users to search, bookmark, sell, and purchase products, and receive personalized recommendations. 
+            </p>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-hand-sparkles"></i>
+            </div>
+            <h2>Gesture-controlled Special Effects </h2>
+            <h6>Python, MediaPipe, OpenCV, TensorFlow</h6>
+            <p>
+              An augmented reality program based on a pre-trained CNN gesture recognition model. It allows the user to interact with the program using hand gestures and observe real-time special-effect rendering. 
+            </p>
+            <a href="https://github.com/zhang-tianran/Gesture-Controlled-Special-Effects">Repo</a>
+          </div>
+        </div>
+
+        <div class="row project-box">
+          <!-- Box 4 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-image"></i>
+            </div>
+            <h2>Sketch to Image Generation using contextual GAN </h2>
+            <h6>Python, TensorFlow</h6>
+            <p>
+              A GAN model that converts sketches into photo-like images using Deep Contextual Completion. Trained with a combination of preprocessed COCO dataset and hand-drew images. 
+            </p>
+            <a href="https://github.com/zhang-tianran/Sketch-to-Image-Generation">Repo</a>
+          </div>
+
+          <!-- Box 5 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-square-poll-horizontal"></i>
+            </div>
+            <h2>“Critical Review” Website Integration </h2>
+            <h6>HTML/CSS, JavaScript, Express</h6>
+            <p> Integration of Brown’s course review website by automating staff control’s survey review pipeline and implementing new functionalities such as FAQ. </p>
+            <a href="https://thecriticalreview.org/">Website</a>
+          </div>
+
+          <!-- Box 6 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-burger"></i>
+            </div>
+            <h2>"Blueno Eats" website</h2>
+            <h6>HTML/CSS, JavaScript, MySQL, PHP</h6>
+            <p>An online Brown dining hall food review platform where users can search, comment, and rate on-campus food choices. </p>
+            <a href="https://github.com/zhang-tianran/Blueno-Eats">Repo</a>
+            <a href="https://www.youtube.com/watch?v=CSRKgqFPG0k">Demo</a>
+          </div>
+        </div>
+
+        <div class="row project-box">
+          <!-- Box 7 -->
+          <div class="col-sm-4 item">
+            <div class="icon">
+              <i class="fa-solid fa-eye-low-vision"></i>
+            </div>
+            <h2>Screen Reader</h2>
+            <h6>HTML/CSS, TypeScript</h6>
+            <p> An accessibility tool for people with different levels of visual impairment to navigate websites. It supports keyboard-controlled audio progress and verbal instructions for interacting with HTML input fields. 
+            </p>
+            <a href="https://github.com/zhang-tianran/Screen-Reader">Repo</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================
+    FOOTER
+    =========================== -->
+    <footer>
+      <button class="back-top" id="back-top"><i class="fa-solid fa-angles-up"></i></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Made with ✨ by Tianran Zhang &copy; 2022
+          </div>
+        </div>
+      </div>
+      <svg width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="wave transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="5%" stop-color="#80c8db"></stop><stop offset="95%" stop-color="#f8fcff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 87.45454545454547,126.49282296650716 174.90909090909093,119.98564593301434 271,123 C 367.09090909090907,126.01435406698566 471.81818181818176,138.55023923444978 572,132 C 672.1818181818182,125.44976076555022 767.8181818181818,99.8133971291866 877,94 C 986.1818181818182,88.1866028708134 1108.909090909091,102.19617224880383 1205,112 C 1301.090909090909,121.80382775119617 1370.5454545454545,127.40191387559808 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%"><stop offset="5%" stop-color="#80c8db"></stop><stop offset="95%" stop-color="#f8fcff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 89.11961722488039,271.85645933014354 178.23923444976077,277.7129186602871 269,263 C 359.7607655502392,248.2870813397129 452.16267942583715,213.00478468899524 561,221 C 669.8373205741628,228.99521531100476 795.1100478468901,280.26794258373207 886,284 C 976.8899521531099,287.73205741626793 1033.3971291866028,243.92344497607655 1120,233 C 1206.6028708133972,222.07655502392345 1323.3014354066986,244.03827751196172 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+    </footer>
+  
+    <script src="js/helper.js"></script>
+  </body>
 </html>
