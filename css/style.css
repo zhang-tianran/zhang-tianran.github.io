@@ -48,7 +48,7 @@ p {
 	width: 70vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
 	#about, #experience {
 		width: 95vw;
 		margin: 20px auto;
@@ -167,7 +167,7 @@ nav {
     } 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 	.opening {
 		width: 250px;
 		height: 55vh;
@@ -196,7 +196,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 640px) {
 	.opening {
 		width: 200px;
 		height: 50vh;

@@ -20,7 +20,7 @@ window.onscroll = function() {
 
 var navContainer = document.getElementById("nav-container");
 window.onresize = function() {
-  if (window.innerWidth <= 600) {
+  if (window.innerWidth <= 640) {
     navContainer.classList.add("justify-content-center");
     navContainer.classList.remove("justify-content-end");
   } else {
