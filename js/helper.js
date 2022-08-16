@@ -18,6 +18,17 @@ window.onscroll = function() {
   }
 }
 
+var navContainer = document.getElementById("nav-container");
+window.onresize = function() {
+  if (window.innerWidth() <= 600) {
+    navContainer.classList.add("justify-content-center");
+    navContainer.classList.remove("justify-content-end");
+  } else {
+    navContainer.classList.add("justify-content-end");
+    navContainer.classList.remove("justify-content-center");
+  }
+}
+
 // Back to top
 const backToTopButton = document.getElementById("back-top");
 const goToTop = () => {
