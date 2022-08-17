@@ -1,7 +1,10 @@
-// Circular text
+// Circular text & profile
 var cirText = new CircleType(document.getElementById('circleText'));
+var profile = document.getElementById("profile");
 function updateRadius() {
-  cirText.radius(cirText.element.offsetWidth / 2);
+  var rad = cirText.element.offsetWidth / 2
+  cirText.radius(rad);
+  profile.style.width = (2 * rad) * 0.86;
 }
 window.addEventListener('resize', updateRadius());
 updateRadius();
@@ -17,7 +20,6 @@ window.onscroll = function() {
     navbar.classList.remove("fixed-top");
   }
 }
-
 var navContainer = document.getElementById("nav-container");
 window.onresize = function() {
   if (window.innerWidth <= 640) {
