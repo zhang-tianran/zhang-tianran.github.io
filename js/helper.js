@@ -1,10 +1,8 @@
 // Circular text & profile
 var cirText = new CircleType(document.getElementById('circleText'));
-var profile = document.getElementById("profile");
 function updateRadius() {
   var rad = cirText.element.offsetWidth / 2
   cirText.radius(rad);
-  profile.style.width = (2 * rad) * 0.86;
 }
 window.addEventListener('resize', updateRadius());
 updateRadius();

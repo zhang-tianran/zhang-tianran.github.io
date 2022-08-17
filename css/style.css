@@ -99,7 +99,7 @@ nav {
 	box-sizing: border-box;
 }
 
-.circle-container {
+.circle-container, #profile-container {
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -112,7 +112,9 @@ nav {
 }
 
 #profile {
-	margin: 7%;
+	display:block;
+	width: 80%;
+	margin: 10% auto;
 	border-radius: 50%;
 }
 
@@ -148,10 +150,12 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	margin: 0;
-	padding: 0;
-	-webkit-animation:spin 45s linear infinite;
+	/* -webkit-animation:spin 45s linear infinite;
     -moz-animation:spin 45s linear infinite;
-    animation:spin 45s linear infinite;
+    animation:spin 45s linear infinite; */
+	width: inherit;
+  	height: inherit;
+	box-sizing: border-box;
 }
 
 @-moz-keyframes spin { 
@@ -174,17 +178,22 @@ nav {
 
 	.opening {
 		width: 250px;
-		height: 55vh;
+		height: 60vh;
 	}
 
 	.circle-container {
-		width: 250px;
-		height: 250px;
+		width: 300px;
+		height: 300px;
 	}
 
 	#circleText {
 		font-size: 14px;
 		letter-spacing: 0.1em;
+	}
+
+	#profile {
+		width: 85%;
+		margin: 8% auto;
 	}
 
 	.name {
@@ -197,13 +206,17 @@ nav {
 @media only screen and (max-width: 640px) {
 
 	.opening {
-		width: 200px;
+		width: 300px;
 		height: 50vh;
 	}
 
 	.circle-container {
-		width: 200px;
-		height: 200px;
+		width: 240px;
+		height: 240px;
+	}
+
+	#profile {
+		margin: 10% auto;
 	}
 
 	#circleText {
@@ -219,12 +232,16 @@ nav {
 	}
 
 	.opening {
-		width: 180px;
+		width: 220px;
 	}
 
 	.circle-container {
-		width: 180px;
-		height: 180px;
+		width: 220px;
+		height: 220px;
+	}
+
+	#profile {
+		margin: 12% auto;
 	}
 
 	#circleText {
