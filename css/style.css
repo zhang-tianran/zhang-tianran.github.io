@@ -11,6 +11,8 @@ body {
 section {
 	width: 90vw;
 	margin: 30px auto;
+	scroll-margin-top: 5em;
+
 }
 
 h1 {
