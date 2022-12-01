@@ -17,7 +17,7 @@ section {
 
 h1 {
 	font-family: 'Rubik', sans-serif;
-	color:#6e94ab;
+	color:#005990;;
 	font-weight: 400;
 	margin-bottom: 25px;
 }
@@ -27,13 +27,13 @@ h2 {
 }
 
 a {
-	color: #80c8db;
+	color: #0094bd;
 	text-decoration: none;
 	padding: 0em 1em;
 }
 
 a:hover,a:active,a.active{
-	color: #f4b1bb;
+	color: #d14157;
 	text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ nav {
 }
 
 .menu a:hover,a:active,a.active{
-	color: #f4b1bb;
+	color: #d14157;
 }
 
 /* ==========================================================================
@@ -131,7 +131,7 @@ nav {
 }
 
 .typewrite {
-	color: #6e94ab;
+	color: #005990;;
 	font-size: 25px;
 	letter-spacing: 1px;
 	font-family: 'Heebo', sans-serif;
@@ -288,7 +288,7 @@ ul.social-buttons li:last-child {
 }
 
 .social-btn:hover,.social-btn:focus {
-	color: #f4b1bb;
+	color: #d14157;
 }
 
 .social-buttons .fa {
@@ -322,7 +322,7 @@ ul.social-buttons li:last-child {
 
 .time-tag {
 	display:inline-block;
-	color: #f4b1bb;
+	color: #d14157;
 	font-size:14px;
 	text-align:center;
 	margin-bottom: 0;
@@ -335,7 +335,7 @@ ul.social-buttons li:last-child {
 }
 
 .timeline ul li span{
-	color: #80c8db;
+	color: #0094bd;
 	line-height: 1;
 }
 
@@ -386,7 +386,7 @@ ul.social-buttons li:last-child {
 }
 
 .project-box .item h6{
-	color: #f4b1bb;;
+	color: #d14157;;
 }
 
 .project-box .item:hover .icon {
@@ -467,5 +467,5 @@ footer p{
 }
 
 .contact a:hover {
-	color: #80c8db;
+	color: #0094bd;
 }
